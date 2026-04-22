@@ -1,0 +1,17 @@
+GO.ID	Term	Annotated	Significant	Expected	classicFisher
+GO:0007267	cell-cell signaling	1079	136	75.6	5.50E-12
+GO:0050654	chondroitin sulfate proteoglycan metabol...	78	25	5.46	4.90E-11
+GO:0006029	proteoglycan metabolic process	130	32	9.11	2.40E-10
+GO:1903510	mucopolysaccharide metabolic process	117	30	8.2	3.00E-10
+GO:0030204	chondroitin sulfate metabolic process	73	23	5.11	4.30E-10
+GO:0030206	chondroitin sulfate biosynthetic process	53	17	3.71	6.00E-08
+GO:0007155	cell adhesion	960	109	67.26	2.60E-07
+GO:0043062	extracellular structure organization	276	38	19.34	4.80E-05
+GO:0010631	epithelial cell migration	210	29	14.71	0.00034
+GO:0098660	inorganic ion transmembrane transport	467	51	32.72	0.00104
+GO:0046903	secretion	586	61	41.06	0.00118
+GO:0001501	skeletal system development	338	35	23.68	0.01309
+GO:0030199	collagen fibril organization	69	10	4.83	0.02134
+GO:0006816	calcium ion transport	245	25	17.17	0.03743
+GO:0007588	excretion	19	4	1.33	0.03986
+GO:0018146	keratan sulfate biosynthetic process	5	2	0.35	0.04254
