@@ -1,0 +1,680 @@
+GO.ID	Term	Annotated	Significant	Expected	classicFisher
+GO:0031102	neuron projection regeneration	49	13	3.97	0.0001
+GO:0031099	regeneration	130	24	10.54	0.00011
+GO:0007600	sensory perception	331	47	26.83	0.00011
+GO:0060047	heart contraction	131	24	10.62	0.00012
+GO:0016477	cell migration	766	91	62.1	0.00013
+GO:0007596	blood coagulation	85	18	6.89	0.00013
+GO:0044036	cell wall macromolecule metabolic proces...	16	7	1.3	0.00013
+GO:0019374	galactolipid metabolic process	32	10	2.59	0.00015
+GO:0006486	protein glycosylation	157	27	12.73	0.00015
+GO:0043413	macromolecule glycosylation	157	27	12.73	0.00015
+GO:0030201	heparan sulfate proteoglycan metabolic p...	8	5	0.65	0.00016
+GO:0051274	beta-glucan biosynthetic process	8	5	0.65	0.00016
+GO:0007599	hemostasis	87	18	7.05	0.00018
+GO:0001963	synaptic transmission, dopaminergic	27	9	2.19	0.00018
+GO:1902692	regulation of neuroblast proliferation	39	11	3.16	0.00019
+GO:0002052	positive regulation of neuroblast prolif...	33	10	2.68	0.00019
+GO:0035094	response to nicotine	33	10	2.68	0.00019
+GO:0050793	regulation of developmental process	1381	148	111.96	0.0002
+GO:0007269	neurotransmitter secretion	111	21	9	0.0002
+GO:0099643	signal release from synapse	111	21	9	0.0002
+GO:0046928	regulation of neurotransmitter secretion	59	14	4.78	0.0002
+GO:0006956	complement activation	66	15	5.35	0.0002
+GO:0007405	neuroblast proliferation	66	15	5.35	0.0002
+GO:0044272	sulfur compound biosynthetic process	177	29	14.35	0.0002
+GO:0048699	generation of neurons	986	111	79.94	0.00021
+GO:0045956	positive regulation of calcium ion-depen...	17	7	1.38	0.00021
+GO:0050878	regulation of body fluid levels	144	25	11.67	0.00022
+GO:0001505	regulation of neurotransmitter levels	136	24	11.03	0.00023
+GO:0002376	immune system process	1148	126	93.07	0.00023
+GO:0050789	regulation of biological process	6500	586	526.97	0.00023
+GO:0045823	positive regulation of heart contraction	40	11	3.24	0.00024
+GO:1903524	positive regulation of blood circulation	40	11	3.24	0.00024
+GO:0006813	potassium ion transport	145	25	11.76	0.00025
+GO:0051962	positive regulation of nervous system de...	162	27	13.13	0.00025
+GO:0035095	behavioral response to nicotine	13	6	1.05	0.00029
+GO:0070085	glycosylation	181	29	14.67	0.0003
+GO:0016051	carbohydrate biosynthetic process	147	25	11.92	0.00031
+GO:0051960	regulation of nervous system development	290	41	23.51	0.00033
+GO:0045777	positive regulation of blood pressure	35	10	2.84	0.00033
+GO:0015872	dopamine transport	29	9	2.35	0.00033
+GO:0030243	cellulose metabolic process	9	5	0.73	0.00033
+GO:0008016	regulation of heart contraction	107	20	8.67	0.00034
+GO:0015844	monoamine transport	69	15	5.59	0.00034
+GO:0019229	regulation of vasoconstriction	62	14	5.03	0.00035
+GO:0051588	regulation of neurotransmitter transport	62	14	5.03	0.00035
+GO:0010631	epithelial cell migration	210	32	17.03	0.00038
+GO:0090130	tissue migration	211	32	17.11	0.00042
+GO:0090132	epithelium migration	211	32	17.11	0.00042
+GO:0048678	response to axon injury	63	14	5.11	0.00042
+GO:0048870	cell motility	899	101	72.88	0.00043
+GO:0006681	galactosylceramide metabolic process	30	9	2.43	0.00044
+GO:0009888	tissue development	1299	138	105.31	0.00048
+GO:0015807	L-amino acid transport	71	15	5.76	0.00048
+GO:0001778	plasma membrane repair	19	7	1.54	0.00048
+GO:0006937	regulation of muscle contraction	102	19	8.27	0.00049
+GO:0007218	neuropeptide signaling pathway	50	12	4.05	0.00051
+GO:0015837	amine transport	79	16	6.4	0.00051
+GO:0051952	regulation of amine transport	79	16	6.4	0.00051
+GO:0006957	complement activation, alternative pathw...	3	3	0.24	0.00053
+GO:0098700	neurotransmitter loading into synaptic v...	3	3	0.24	0.00053
+GO:0015850	organic hydroxy compound transport	232	34	18.81	0.00053
+GO:0006959	humoral immune response	111	20	9	0.00055
+GO:0009664	plant-type cell wall organization	6	4	0.49	0.00056
+GO:0010981	regulation of cell wall macromolecule me...	6	4	0.49	0.00056
+GO:0030244	cellulose biosynthetic process	6	4	0.49	0.00056
+GO:0032950	regulation of beta-glucan metabolic proc...	6	4	0.49	0.00056
+GO:0032951	regulation of beta-glucan biosynthetic p...	6	4	0.49	0.00056
+GO:0034406	cell wall beta-glucan metabolic process	6	4	0.49	0.00056
+GO:0034410	cell wall beta-glucan biosynthetic proce...	6	4	0.49	0.00056
+GO:0052324	plant-type cell wall cellulose biosynthe...	6	4	0.49	0.00056
+GO:0052541	plant-type cell wall cellulose metabolic...	6	4	0.49	0.00056
+GO:0099509	regulation of presynaptic cytosolic calc...	6	4	0.49	0.00056
+GO:2001006	regulation of cellulose biosynthetic pro...	6	4	0.49	0.00056
+GO:2001009	regulation of plant-type cell wall cellu...	6	4	0.49	0.00056
+GO:0002027	regulation of heart rate	65	14	5.27	0.00059
+GO:0048869	cellular developmental process	2451	240	198.71	0.00063
+GO:0006790	sulfur compound metabolic process	328	44	26.59	0.00064
+GO:0045597	positive regulation of cell differentiat...	445	56	36.08	0.00064
+GO:0006493	protein O-linked glycosylation	73	15	5.92	0.00065
+GO:0048513	animal organ development	1819	184	147.47	0.00066
+GO:0009582	detection of abiotic stimulus	146	24	11.84	0.00066
+GO:0019098	reproductive behavior	38	10	3.08	0.00068
+GO:0030218	erythrocyte differentiation	59	13	4.78	0.00073
+GO:0001837	epithelial to mesenchymal transition	130	22	10.54	0.00073
+GO:0042391	regulation of membrane potential	264	37	21.4	0.00074
+GO:0009653	anatomical structure morphogenesis	1812	183	146.9	0.00074
+GO:0007617	mating behavior	32	9	2.59	0.00074
+GO:0007165	signal transduction	3129	298	253.67	0.00077
+GO:0009581	detection of external stimulus	139	23	11.27	0.00078
+GO:0006936	muscle contraction	165	26	13.38	0.00078
+GO:0030154	cell differentiation	2450	239	198.63	0.0008
+GO:0003012	muscle system process	201	30	16.3	0.00082
+GO:0006457	protein folding	131	22	10.62	0.00082
+GO:0006677	glycosylceramide metabolic process	39	10	3.16	0.00085
+GO:0040011	locomotion	623	73	50.51	0.00085
+GO:0007610	behavior	411	52	33.32	0.00087
+GO:0006687	glycosphingolipid metabolic process	60	13	4.86	0.00087
+GO:0031103	axon regeneration	46	11	3.73	0.0009
+GO:0010001	glial cell differentiation	158	25	12.81	0.00092
+GO:1903509	liposaccharide metabolic process	91	17	7.38	0.00092
+GO:0042221	response to chemical	1934	193	156.79	0.00095
+GO:0070050	neuron cellular homeostasis	33	9	2.68	0.00095
+GO:0001976	nervous system process involved in regul...	21	7	1.7	0.00095
+GO:0003025	regulation of systemic arterial blood pr...	21	7	1.7	0.00095
+GO:0070527	platelet aggregation	21	7	1.7	0.00095
+GO:0042063	gliogenesis	203	30	16.46	0.00096
+GO:0017158	regulation of calcium ion-dependent exoc...	27	8	2.19	0.001
+GO:0034101	erythrocyte homeostasis	61	13	4.95	0.00102
+GO:0060284	regulation of cell development	414	52	33.56	0.00102
+GO:0071805	potassium ion transmembrane transport	125	21	10.13	0.00106
+GO:0001762	beta-alanine transport	11	5	0.89	0.00106
+GO:0048047	mating behavior, sex discrimination	11	5	0.89	0.00106
+GO:0071880	adenylate cyclase-activating adrenergic ...	54	12	4.38	0.00107
+GO:0050806	positive regulation of synaptic transmis...	126	21	10.22	0.00117
+GO:0072359	circulatory system development	777	87	62.99	0.00118
+GO:0007613	memory	85	16	6.89	0.00118
+GO:0042592	homeostatic process	905	99	73.37	0.0012
+GO:0071875	adrenergic receptor signaling pathway	55	12	4.46	0.00127
+GO:0006688	glycosphingolipid biosynthetic process	41	10	3.32	0.00129
+GO:0006682	galactosylceramide biosynthetic process	28	8	2.27	0.0013
+GO:0010460	positive regulation of heart rate	28	8	2.27	0.0013
+GO:0019375	galactolipid biosynthetic process	28	8	2.27	0.0013
+GO:0043269	regulation of monoatomic ion transport	263	36	21.32	0.00133
+GO:2000145	regulation of cell motility	500	60	40.54	0.00136
+GO:0090257	regulation of muscle system process	137	22	11.11	0.0015
+GO:0006664	glycolipid metabolic process	87	16	7.05	0.00153
+GO:0019724	B cell mediated immunity	87	16	7.05	0.00153
+GO:0051604	protein maturation	372	47	30.16	0.00154
+GO:0046903	secretion	586	68	47.51	0.00163
+GO:0045637	regulation of myeloid cell differentiati...	104	18	8.43	0.00165
+GO:0046476	glycosylceramide biosynthetic process	29	8	2.35	0.00167
+GO:0031407	oxylipin metabolic process	12	5	0.97	0.0017
+GO:0031408	oxylipin biosynthetic process	12	5	0.97	0.0017
+GO:0032225	regulation of synaptic transmission, dop...	12	5	0.97	0.0017
+GO:1903305	regulation of regulated secretory pathwa...	72	14	5.84	0.0017
+GO:0061564	axon development	364	46	29.51	0.00171
+GO:0040012	regulation of locomotion	536	63	43.45	0.00175
+GO:0050794	regulation of cellular process	6132	546	497.13	0.00178
+GO:0098739	import across plasma membrane	114	19	9.24	0.00197
+GO:0009298	GDP-mannose biosynthetic process	4	3	0.32	0.002
+GO:0018057	peptidyl-lysine oxidation	4	3	0.32	0.002
+GO:1903664	regulation of asexual reproduction	4	3	0.32	0.002
+GO:1903665	negative regulation of asexual reproduct...	4	3	0.32	0.002
+GO:0030182	neuron differentiation	920	99	74.59	0.00202
+GO:0043171	peptide catabolic process	30	8	2.43	0.00212
+GO:0043410	positive regulation of MAPK cascade	280	37	22.7	0.00216
+GO:0001944	vasculature development	510	60	41.35	0.00217
+GO:0051480	regulation of cytosolic calcium ion conc...	51	11	4.13	0.0022
+GO:0048762	mesenchymal cell differentiation	168	25	13.62	0.00222
+GO:0150099	neuron-glial cell signaling	18	6	1.46	0.00222
+GO:0042417	dopamine metabolic process	37	9	3	0.00228
+GO:0048665	neuron fate specification	24	7	1.95	0.00229
+GO:0050482	arachidonic acid secretion	24	7	1.95	0.00229
+GO:1903963	arachidonate transport	24	7	1.95	0.00229
+GO:0007417	central nervous system development	584	67	47.35	0.00233
+GO:0010646	regulation of cell communication	1973	193	159.96	0.00243
+GO:0023051	regulation of signaling	1965	192	159.31	0.00263
+GO:0051046	regulation of secretion	362	45	29.35	0.00264
+GO:0050767	regulation of neurogenesis	207	29	16.78	0.00264
+GO:0034765	regulation of monoatomic ion transmembra...	198	28	16.05	0.0027
+GO:0002924	negative regulation of humoral immune re...	38	9	3.08	0.00278
+GO:0003017	lymph circulation	38	9	3.08	0.00278
+GO:0030450	regulation of complement activation, cla...	38	9	3.08	0.00278
+GO:0045916	negative regulation of complement activa...	38	9	3.08	0.00278
+GO:0045959	negative regulation of complement activa...	38	9	3.08	0.00278
+GO:0001101	response to acid chemical	84	15	6.81	0.00286
+GO:0030334	regulation of cell migration	465	55	37.7	0.0029
+GO:0048812	neuron projection morphogenesis	435	52	35.27	0.00298
+GO:0070327	thyroid hormone transport	19	6	1.54	0.00303
+GO:0099171	presynaptic modulation of chemical synap...	53	11	4.3	0.00304
+GO:0043408	regulation of MAPK cascade	385	47	31.21	0.00308
+GO:0023061	signal release	345	43	27.97	0.00308
+GO:0007632	visual behavior	46	10	3.73	0.00325
+GO:2000179	positive regulation of neural precursor ...	46	10	3.73	0.00325
+GO:0051606	detection of stimulus	182	26	14.76	0.00326
+GO:0008306	associative learning	77	14	6.24	0.00328
+GO:0050906	detection of stimulus involved in sensor...	69	13	5.59	0.00328
+GO:0061035	regulation of cartilage development	32	8	2.59	0.0033
+GO:0017157	regulation of exocytosis	102	17	8.27	0.00331
+GO:1903530	regulation of secretion by cell	327	41	26.51	0.00341
+GO:0002250	adaptive immune response	192	27	15.57	0.00344
+GO:0001764	neuron migration	94	16	7.62	0.00347
+GO:0001945	lymph vessel development	54	11	4.38	0.00354
+GO:0016064	immunoglobulin mediated immune response	86	15	6.97	0.00361
+GO:0010632	regulation of epithelial cell migration	165	24	13.38	0.00364
+GO:0022008	neurogenesis	1169	120	94.77	0.00369
+GO:0009247	glycolipid biosynthetic process	62	12	5.03	0.0037
+GO:0001978	regulation of systemic arterial blood pr...	14	5	1.14	0.00374
+GO:0015816	glycine transport	14	5	1.14	0.00374
+GO:0019321	pentose metabolic process	14	5	1.14	0.00374
+GO:0021554	optic nerve development	26	7	2.11	0.00377
+GO:0017156	calcium-ion regulated exocytosis	47	10	3.81	0.00383
+GO:0036303	lymph vessel morphogenesis	47	10	3.81	0.00383
+GO:0001982	baroreceptor response to decreased syste...	9	4	0.73	0.00389
+GO:0009608	response to symbiont	9	4	0.73	0.00389
+GO:0031294	lymphocyte costimulation	9	4	0.73	0.00389
+GO:0031295	T cell costimulation	9	4	0.73	0.00389
+GO:0051216	cartilage development	121	19	9.81	0.00392
+GO:0120039	plasma membrane bounded cell projection ...	441	52	35.75	0.00395
+GO:0048167	regulation of synaptic plasticity	148	22	12	0.00401
+GO:0002713	negative regulation of B cell mediated i...	40	9	3.24	0.00403
+GO:0002890	negative regulation of immunoglobulin me...	40	9	3.24	0.00403
+GO:0002921	negative regulation of humoral immune re...	40	9	3.24	0.00403
+GO:0006584	catecholamine metabolic process	40	9	3.24	0.00403
+GO:0009712	catechol-containing compound metabolic p...	40	9	3.24	0.00403
+GO:0003084	positive regulation of systemic arterial...	20	6	1.62	0.00403
+GO:0003321	positive regulation of blood pressure by...	20	6	1.62	0.00403
+GO:0006939	smooth muscle contraction	87	15	7.05	0.00404
+GO:0035249	synaptic transmission, glutamatergic	87	15	7.05	0.00404
+GO:0048858	cell projection morphogenesis	442	52	35.83	0.00414
+GO:0050807	regulation of synapse organization	176	25	14.27	0.00417
+GO:0051049	regulation of transport	877	93	71.1	0.00417
+GO:0032990	cell part morphogenesis	453	53	36.73	0.00427
+GO:0034762	regulation of transmembrane transport	234	31	18.97	0.00454
+GO:0007611	learning or memory	168	24	13.62	0.00459
+GO:0050982	detection of mechanical stimulus	80	14	6.49	0.00469
+GO:0001765	membrane raft assembly	5	3	0.41	0.00469
+GO:0019954	asexual reproduction	5	3	0.41	0.00469
+GO:0032351	negative regulation of hormone metabolic...	5	3	0.41	0.00469
+GO:0044341	sodium-dependent phosphate transport	5	3	0.41	0.00469
+GO:0044854	plasma membrane raft assembly	5	3	0.41	0.00469
+GO:0070836	caveola assembly	5	3	0.41	0.00469
+GO:2000300	regulation of synaptic vesicle exocytosi...	27	7	2.19	0.00474
+GO:0050769	positive regulation of neurogenesis	141	21	11.43	0.00475
+GO:0015909	long-chain fatty acid transport	34	8	2.76	0.00493
+GO:0035295	tube development	807	86	65.43	0.00505
+GO:0050915	sensory perception of sour taste	15	5	1.22	0.00524
+GO:0006691	leukotriene metabolic process	21	6	1.7	0.00526
+GO:0032330	regulation of chondrocyte differentiatio...	21	6	1.7	0.00526
+GO:0018958	phenol-containing compound metabolic pro...	98	16	7.95	0.00529
+GO:0019226	transmission of nerve impulse	73	13	5.92	0.00543
+GO:0006940	regulation of smooth muscle contraction	57	11	4.62	0.00546
+GO:0098771	inorganic ion homeostasis	316	39	25.62	0.00551
+GO:1904645	response to amyloid-beta	35	8	2.84	0.00594
+GO:0018208	peptidyl-proline modification	10	4	0.81	0.00607
+GO:0021781	glial cell fate commitment	10	4	0.81	0.00607
+GO:0044857	plasma membrane raft organization	10	4	0.81	0.00607
+GO:0071468	cellular response to acidic pH	10	4	0.81	0.00607
+GO:0045055	regulated exocytosis	144	21	11.67	0.00607
+GO:0001501	skeletal system development	338	41	27.4	0.00608
+GO:0014075	response to amine	50	10	4.05	0.00609
+GO:0021545	cranial nerve development	50	10	4.05	0.00609
+GO:0021766	hippocampus development	50	10	4.05	0.00609
+GO:0051963	regulation of synapse assembly	91	15	7.38	0.00622
+GO:0098657	import into cell	567	63	45.97	0.00634
+GO:0001667	ameboidal-type cell migration	299	37	24.24	0.00646
+GO:0001957	intramembranous ossification	2	2	0.16	0.00657
+GO:0009834	plant-type secondary cell wall biogenesi...	2	2	0.16	0.00657
+GO:0015015	heparan sulfate proteoglycan biosyntheti...	2	2	0.16	0.00657
+GO:0032253	dense core granule localization	2	2	0.16	0.00657
+GO:0034975	protein folding in endoplasmic reticulum	2	2	0.16	0.00657
+GO:0036072	direct ossification	2	2	0.16	0.00657
+GO:0045492	xylan biosynthetic process	2	2	0.16	0.00657
+GO:0046373	L-arabinose metabolic process	2	2	0.16	0.00657
+GO:0060084	synaptic transmission involved in mictur...	2	2	0.16	0.00657
+GO:0099519	dense core granule cytoskeletal transpor...	2	2	0.16	0.00657
+GO:1901950	dense core granule transport	2	2	0.16	0.00657
+GO:1990937	xylan acetylation	2	2	0.16	0.00657
+GO:0010634	positive regulation of epithelial cell m...	118	18	9.57	0.00667
+GO:0008347	glial cell migration	43	9	3.49	0.00668
+GO:0048014	Tie signaling pathway	43	9	3.49	0.00668
+GO:1903035	negative regulation of response to wound...	43	9	3.49	0.00668
+GO:0070887	cellular response to chemical stimulus	1359	135	110.18	0.00668
+GO:0009628	response to abiotic stimulus	751	80	60.89	0.00678
+GO:2000147	positive regulation of cell motility	300	37	24.32	0.00681
+GO:0016079	synaptic vesicle exocytosis	75	13	6.08	0.00685
+GO:0002823	negative regulation of adaptive immune r...	51	10	4.13	0.00704
+GO:0010033	response to organic substance	1497	147	121.37	0.0071
+GO:0001508	action potential	101	16	8.19	0.00711
+GO:0048679	regulation of axon regeneration	36	8	2.92	0.00711
+GO:0070570	regulation of neuron projection regenera...	36	8	2.92	0.00711
+GO:0001696	gastric acid secretion	16	5	1.3	0.00711
+GO:0009226	nucleotide-sugar biosynthetic process	16	5	1.3	0.00711
+GO:0031175	neuron projection development	677	73	54.89	0.00714
+GO:0051965	positive regulation of synapse assembly	29	7	2.35	0.00723
+GO:0050890	cognition	184	25	14.92	0.00739
+GO:0000165	MAPK cascade	414	48	33.56	0.00748
+GO:0060485	mesenchyme development	194	26	15.73	0.00762
+GO:0002923	regulation of humoral immune response me...	44	9	3.57	0.0078
+GO:0030449	regulation of complement activation	44	9	3.57	0.0078
+GO:0009605	response to external stimulus	1524	149	123.55	0.00784
+GO:0099504	synaptic vesicle cycle	129	19	10.46	0.0079
+GO:0071248	cellular response to metal ion	111	17	9	0.00792
+GO:0006690	icosanoid metabolic process	68	12	5.51	0.00796
+GO:0009719	response to endogenous stimulus	1031	105	83.59	0.00806
+GO:0002820	negative regulation of adaptive immune r...	52	10	4.22	0.0081
+GO:0003044	regulation of systemic arterial blood pr...	52	10	4.22	0.0081
+GO:0007422	peripheral nervous system development	52	10	4.22	0.0081
+GO:0098609	cell-cell adhesion	521	58	42.24	0.00825
+GO:0010243	response to organonitrogen compound	628	68	50.91	0.0084
+GO:0035239	tube morphogenesis	596	65	48.32	0.00843
+GO:0019369	arachidonic acid metabolic process	37	8	3	0.00844
+GO:0015801	aromatic amino acid transport	23	6	1.86	0.00852
+GO:0002062	chondrocyte differentiation	77	13	6.24	0.00856
+GO:0071711	basement membrane organization	77	13	6.24	0.00856
+GO:0007214	gamma-aminobutyric acid signaling pathwa...	30	7	2.43	0.00878
+GO:2000463	positive regulation of excitatory postsy...	30	7	2.43	0.00878
+GO:0009128	purine nucleoside monophosphate cataboli...	6	3	0.49	0.00882
+GO:0009169	purine ribonucleoside monophosphate cata...	6	3	0.49	0.00882
+GO:0018158	protein oxidation	6	3	0.49	0.00882
+GO:0031288	sorocarp morphogenesis	6	3	0.49	0.00882
+GO:0043052	thermotaxis	6	3	0.49	0.00882
+GO:0140986	G protein-coupled chemorepellent recepto...	6	3	0.49	0.00882
+GO:0097305	response to alcohol	149	21	12.08	0.00893
+GO:0015918	sterol transport	69	12	5.59	0.00894
+GO:0015804	neutral amino acid transport	45	9	3.65	0.00907
+GO:0019228	neuronal action potential	53	10	4.3	0.00928
+GO:0010447	response to acidic pH	17	5	1.38	0.00942
+GO:0048681	negative regulation of axon regeneration	17	5	1.38	0.00942
+GO:0070571	negative regulation of neuron projection...	17	5	1.38	0.00942
+GO:1901698	response to nitrogen compound	665	71	53.91	0.00985
+GO:0030168	platelet activation	38	8	3.08	0.00995
+GO:0015800	acidic amino acid transport	70	12	5.68	0.01002
+GO:0098659	inorganic cation import across plasma me...	70	12	5.68	0.01002
+GO:0099587	inorganic ion import across plasma membr...	70	12	5.68	0.01002
+GO:0006749	glutathione metabolic process	31	7	2.51	0.01057
+GO:0010977	negative regulation of neuron projection...	79	13	6.4	0.01059
+GO:0000272	polysaccharide catabolic process	24	6	1.95	0.01059
+GO:0009950	dorsal/ventral axis specification	24	6	1.95	0.01059
+GO:0010752	regulation of cGMP-mediated signaling	24	6	1.95	0.01059
+GO:1901700	response to oxygen-containing compound	942	96	76.37	0.01084
+GO:0034330	cell junction organization	540	59	43.78	0.01128
+GO:0015718	monocarboxylic acid transport	143	20	11.59	0.01144
+GO:0099003	vesicle-mediated transport in synapse	143	20	11.59	0.01144
+GO:0048666	neuron development	779	81	63.16	0.01159
+GO:1903307	positive regulation of regulated secreto...	39	8	3.16	0.01165
+GO:0040017	positive regulation of locomotion	311	37	25.21	0.01186
+GO:0009725	response to hormone	499	55	40.46	0.01197
+GO:0009583	detection of light stimulus	55	10	4.46	0.01202
+GO:0071229	cellular response to acid chemical	55	10	4.46	0.01202
+GO:0001996	positive regulation of heart rate by epi...	18	5	1.46	0.01218
+GO:0031338	regulation of vesicle fusion	18	5	1.46	0.01218
+GO:0045471	response to ethanol	72	12	5.84	0.01247
+GO:0006751	glutathione catabolic process	12	4	0.97	0.01254
+GO:0014055	acetylcholine secretion, neurotransmissi...	12	4	0.97	0.01254
+GO:0014056	regulation of acetylcholine secretion, n...	12	4	0.97	0.01254
+GO:0031579	membrane raft organization	12	4	0.97	0.01254
+GO:0042339	keratan sulfate metabolic process	12	4	0.97	0.01254
+GO:0042373	vitamin K metabolic process	12	4	0.97	0.01254
+GO:0048532	anatomical structure arrangement	12	4	0.97	0.01254
+GO:0140352	export from cell	543	59	44.02	0.01257
+GO:1901888	regulation of cell junction assembly	135	19	10.94	0.01264
+GO:0002698	negative regulation of immune effector p...	64	11	5.19	0.01312
+GO:0015908	fatty acid transport	117	17	9.49	0.01316
+GO:2000177	regulation of neural precursor cell prol...	117	17	9.49	0.01316
+GO:0009953	dorsal/ventral pattern formation	99	15	8.03	0.01335
+GO:0034109	homotypic cell-cell adhesion	40	8	3.24	0.01356
+GO:0071869	response to catecholamine	48	9	3.89	0.0138
+GO:0051241	negative regulation of multicellular org...	535	58	43.37	0.01384
+GO:0001568	blood vessel development	450	50	36.48	0.01393
+GO:0010975	regulation of neuron projection developm...	305	36	24.73	0.01449
+GO:0001697	histamine-induced gastric acid secretion	7	3	0.57	0.01451
+GO:0001698	gastrin-induced gastric acid secretion	7	3	0.57	0.01451
+GO:0007403	glial cell fate determination	7	3	0.57	0.01451
+GO:0008355	olfactory learning	7	3	0.57	0.01451
+GO:0019673	GDP-mannose metabolic process	7	3	0.57	0.01451
+GO:0032332	positive regulation of chondrocyte diffe...	7	3	0.57	0.01451
+GO:0048102	autophagic cell death	7	3	0.57	0.01451
+GO:0060073	micturition	7	3	0.57	0.01451
+GO:1901142	insulin metabolic process	7	3	0.57	0.01451
+GO:1901748	leukotriene D4 metabolic process	7	3	0.57	0.01451
+GO:1990384	hyaloid vascular plexus regression	7	3	0.57	0.01451
+GO:0048878	chemical homeostasis	569	61	46.13	0.01471
+GO:0006816	calcium ion transport	245	30	19.86	0.01516
+GO:0045921	positive regulation of exocytosis	57	10	4.62	0.01534
+GO:0021761	limbic system development	74	12	6	0.01536
+GO:0032222	regulation of synaptic transmission, cho...	19	5	1.54	0.01545
+GO:0044042	glucan metabolic process	41	8	3.32	0.01568
+GO:0001666	response to hypoxia	157	21	12.73	0.01569
+GO:0002707	negative regulation of lymphocyte mediat...	49	9	3.97	0.01573
+GO:0071867	response to monoamine	49	9	3.97	0.01573
+GO:0030517	negative regulation of axon extension	26	6	2.11	0.01577
+GO:1902075	cellular response to salt	101	15	8.19	0.01587
+GO:0021675	nerve development	92	14	7.46	0.0159
+GO:0036293	response to decreased oxygen levels	167	22	13.54	0.01607
+GO:0010815	bradykinin catabolic process	13	4	1.05	0.01697
+GO:0031340	positive regulation of vesicle fusion	13	4	1.05	0.01697
+GO:0055062	phosphate ion homeostasis	13	4	1.05	0.01697
+GO:0070471	uterine smooth muscle contraction	13	4	1.05	0.01697
+GO:0070472	regulation of uterine smooth muscle cont...	13	4	1.05	0.01697
+GO:1902430	negative regulation of amyloid-beta form...	13	4	1.05	0.01697
+GO:0032940	secretion by cell	498	54	40.37	0.01703
+GO:0001993	regulation of systemic arterial blood pr...	34	7	2.76	0.01749
+GO:0032091	negative regulation of protein binding	34	7	2.76	0.01749
+GO:0002704	negative regulation of leukocyte mediate...	50	9	4.05	0.01785
+GO:0010817	regulation of hormone levels	341	39	27.65	0.01814
+GO:0007157	heterophilic cell-cell adhesion via plas...	67	11	5.43	0.01818
+GO:0007171	activation of transmembrane receptor pro...	3	2	0.24	0.01864
+GO:0014820	tonic smooth muscle contraction	3	2	0.24	0.01864
+GO:0019566	arabinose metabolic process	3	2	0.24	0.01864
+GO:0030473	nuclear migration along microtubule	3	2	0.24	0.01864
+GO:0031104	dendrite regeneration	3	2	0.24	0.01864
+GO:0031944	negative regulation of glucocorticoid me...	3	2	0.24	0.01864
+GO:0031947	negative regulation of glucocorticoid bi...	3	2	0.24	0.01864
+GO:0032226	positive regulation of synaptic transmis...	3	2	0.24	0.01864
+GO:0032252	secretory granule localization	3	2	0.24	0.01864
+GO:0032345	negative regulation of aldosterone metab...	3	2	0.24	0.01864
+GO:0032348	negative regulation of aldosterone biosy...	3	2	0.24	0.01864
+GO:0033197	response to vitamin E	3	2	0.24	0.01864
+GO:0033564	anterior/posterior axon guidance	3	2	0.24	0.01864
+GO:0071316	cellular response to nicotine	3	2	0.24	0.01864
+GO:0120054	intestinal motility	3	2	0.24	0.01864
+GO:0120056	large intestinal transit	3	2	0.24	0.01864
+GO:1901143	insulin catabolic process	3	2	0.24	0.01864
+GO:2000065	negative regulation of cortisol biosynth...	3	2	0.24	0.01864
+GO:0009250	glucan biosynthetic process	27	6	2.19	0.01892
+GO:0050909	sensory perception of taste	27	6	2.19	0.01892
+GO:0061025	membrane fusion	94	14	7.62	0.01893
+GO:0032989	cellular component morphogenesis	512	55	41.51	0.01909
+GO:0060179	male mating behavior	20	5	1.62	0.01926
+GO:0072207	metanephric epithelium development	20	5	1.62	0.01926
+GO:0072243	metanephric nephron epithelium developme...	20	5	1.62	0.01926
+GO:1902022	L-lysine transport	20	5	1.62	0.01926
+GO:0016358	dendrite development	170	22	13.78	0.01939
+GO:0043200	response to amino acid	68	11	5.51	0.02016
+GO:0001709	cell fate determination	35	7	2.84	0.02038
+GO:0048667	cell morphogenesis involved in neuron di...	407	45	33	0.02042
+GO:0045907	positive regulation of vasoconstriction	43	8	3.49	0.02063
+GO:0046189	phenol-containing compound biosynthetic ...	43	8	3.49	0.02063
+GO:0071277	cellular response to calcium ion	43	8	3.49	0.02063
+GO:0002262	myeloid cell homeostasis	86	13	6.97	0.02073
+GO:0001988	positive regulation of heart rate involv...	8	3	0.65	0.02183
+GO:0001997	positive regulation of the force of hear...	8	3	0.65	0.02183
+GO:0003099	positive regulation of the force of hear...	8	3	0.65	0.02183
+GO:0007400	neuroblast fate determination	8	3	0.65	0.02183
+GO:0014017	neuroblast fate commitment	8	3	0.65	0.02183
+GO:0021604	cranial nerve structural organization	8	3	0.65	0.02183
+GO:0031632	positive regulation of synaptic vesicle ...	8	3	0.65	0.02183
+GO:0032304	negative regulation of icosanoid secreti...	8	3	0.65	0.02183
+GO:0042689	regulation of crystal cell differentiati...	8	3	0.65	0.02183
+GO:0042732	D-xylose metabolic process	8	3	0.65	0.02183
+GO:0043696	dedifferentiation	8	3	0.65	0.02183
+GO:0043697	cell dedifferentiation	8	3	0.65	0.02183
+GO:0050976	detection of mechanical stimulus involve...	8	3	0.65	0.02183
+GO:0060112	generation of ovulation cycle rhythm	8	3	0.65	0.02183
+GO:0060582	cell fate determination involved in patt...	8	3	0.65	0.02183
+GO:0062111	zinc ion import into organelle	8	3	0.65	0.02183
+GO:0072173	metanephric tubule morphogenesis	8	3	0.65	0.02183
+GO:0072282	metanephric nephron tubule morphogenesis	8	3	0.65	0.02183
+GO:0099502	calcium-dependent activation of synaptic...	8	3	0.65	0.02183
+GO:1900139	negative regulation of arachidonic acid ...	8	3	0.65	0.02183
+GO:1901634	positive regulation of synaptic vesicle ...	8	3	0.65	0.02183
+GO:0006817	phosphate ion transport	14	4	1.14	0.02227
+GO:0007211	octopamine or tyramine signaling pathway	14	4	1.14	0.02227
+GO:0010962	regulation of glucan biosynthetic proces...	14	4	1.14	0.02227
+GO:0015870	acetylcholine transport	14	4	1.14	0.02227
+GO:0034392	negative regulation of smooth muscle cel...	14	4	1.14	0.02227
+GO:0061526	acetylcholine secretion	14	4	1.14	0.02227
+GO:0071927	octopamine signaling pathway	14	4	1.14	0.02227
+GO:0071928	tyramine signaling pathway	14	4	1.14	0.02227
+GO:1901374	acetate ester transport	14	4	1.14	0.02227
+GO:1902992	negative regulation of amyloid precursor...	14	4	1.14	0.02227
+GO:0001964	startle response	28	6	2.27	0.02248
+GO:1903706	regulation of hemopoiesis	173	22	14.03	0.02323
+GO:1901071	glucosamine-containing compound metaboli...	44	8	3.57	0.02348
+GO:1902475	L-alpha-amino acid transmembrane transpo...	44	8	3.57	0.02348
+GO:0008542	visual learning	36	7	2.92	0.02358
+GO:0031640	killing of cells of another organism	36	7	2.92	0.02358
+GO:0141061	disruption of cell in another organism	36	7	2.92	0.02358
+GO:0001956	positive regulation of neurotransmitter ...	21	5	1.7	0.02364
+GO:0007097	nuclear migration	21	5	1.7	0.02364
+GO:0071696	ectodermal placode development	21	5	1.7	0.02364
+GO:0032879	regulation of localization	1063	104	86.18	0.02392
+GO:0001676	long-chain fatty acid metabolic process	61	10	4.95	0.02393
+GO:0021510	spinal cord development	61	10	4.95	0.02393
+GO:0050808	synapse organization	380	42	30.81	0.02457
+GO:0007409	axonogenesis	317	36	25.7	0.02476
+GO:0050768	negative regulation of neurogenesis	79	12	6.4	0.02477
+GO:0090066	regulation of anatomical structure size	391	43	31.7	0.02493
+GO:0007009	plasma membrane organization	107	15	8.67	0.02563
+GO:0048791	calcium ion-regulated exocytosis of neur...	29	6	2.35	0.02645
+GO:0051968	positive regulation of synaptic transmis...	29	6	2.35	0.02645
+GO:0070509	calcium ion import	29	6	2.35	0.02645
+GO:0015695	organic cation transport	62	10	5.03	0.02653
+GO:0060079	excitatory postsynaptic potential	62	10	5.03	0.02653
+GO:0061077	chaperone-mediated protein folding	45	8	3.65	0.02659
+GO:1901890	positive regulation of cell junction ass...	45	8	3.65	0.02659
+GO:0060291	long-term synaptic potentiation	71	11	5.76	0.02702
+GO:0141060	disruption of anatomical structure in an...	37	7	3	0.02712
+GO:0010035	response to inorganic substance	372	41	30.16	0.02716
+GO:0048638	regulation of developmental growth	216	26	17.51	0.02732
+GO:0002040	sprouting angiogenesis	108	15	8.76	0.02762
+GO:0007204	positive regulation of cytosolic calcium...	108	15	8.76	0.02762
+GO:0031345	negative regulation of cell projection o...	108	15	8.76	0.02762
+GO:0045766	positive regulation of angiogenesis	99	14	8.03	0.02843
+GO:1904018	positive regulation of vasculature devel...	99	14	8.03	0.02843
+GO:0031629	synaptic vesicle fusion to presynaptic a...	15	4	1.22	0.02846
+GO:0036065	fucosylation	15	4	1.22	0.02846
+GO:0071418	cellular response to amine stimulus	15	4	1.22	0.02846
+GO:0099500	vesicle fusion to plasma membrane	15	4	1.22	0.02846
+GO:2000648	positive regulation of stem cell prolife...	15	4	1.22	0.02846
+GO:0007212	dopamine receptor signaling pathway	22	5	1.78	0.0286
+GO:0014061	regulation of norepinephrine secretion	22	5	1.78	0.0286
+GO:0032881	regulation of polysaccharide metabolic p...	22	5	1.78	0.0286
+GO:0035809	regulation of urine volume	22	5	1.78	0.0286
+GO:0051590	positive regulation of neurotransmitter ...	22	5	1.78	0.0286
+GO:0030323	respiratory tube development	118	16	9.57	0.02866
+GO:0006887	exocytosis	207	25	16.78	0.02896
+GO:0061351	neural precursor cell proliferation	167	21	13.54	0.02916
+GO:0009612	response to mechanical stimulus	177	22	14.35	0.02924
+GO:0001708	cell fate specification	63	10	5.11	0.02933
+GO:0061333	renal tubule morphogenesis	63	10	5.11	0.02933
+GO:0007602	phototransduction	46	8	3.73	0.02998
+GO:0050974	detection of mechanical stimulus involve...	46	8	3.73	0.02998
+GO:0071241	cellular response to inorganic substance	138	18	11.19	0.03005
+GO:0030335	positive regulation of cell migration	280	32	22.7	0.03036
+GO:0007612	learning	119	16	9.65	0.03072
+GO:0000413	protein peptidyl-prolyl isomerization	9	3	0.73	0.03081
+GO:0003057	regulation of the force of heart contrac...	9	3	0.73	0.03081
+GO:0008049	male courtship behavior	9	3	0.73	0.03081
+GO:0008090	retrograde axonal transport	9	3	0.73	0.03081
+GO:0030322	stabilization of membrane potential	9	3	0.73	0.03081
+GO:0042455	ribonucleoside biosynthetic process	9	3	0.73	0.03081
+GO:0042688	crystal cell differentiation	9	3	0.73	0.03081
+GO:0045611	negative regulation of hemocyte differen...	9	3	0.73	0.03081
+GO:0046129	purine ribonucleoside biosynthetic proce...	9	3	0.73	0.03081
+GO:0048490	anterograde synaptic vesicle transport	9	3	0.73	0.03081
+GO:0050651	dermatan sulfate proteoglycan biosynthet...	9	3	0.73	0.03081
+GO:0050893	sensory processing	9	3	0.73	0.03081
+GO:0050908	detection of light stimulus involved in ...	9	3	0.73	0.03081
+GO:0050962	detection of light stimulus involved in ...	9	3	0.73	0.03081
+GO:0060174	limb bud formation	9	3	0.73	0.03081
+GO:0060856	establishment of blood-brain barrier	9	3	0.73	0.03081
+GO:0071361	cellular response to ethanol	9	3	0.73	0.03081
+GO:0072202	cell differentiation involved in metanep...	9	3	0.73	0.03081
+GO:0072235	metanephric distal tubule development	9	3	0.73	0.03081
+GO:0090330	regulation of platelet aggregation	9	3	0.73	0.03081
+GO:0097374	sensory neuron axon guidance	9	3	0.73	0.03081
+GO:0097638	L-arginine import across plasma membrane	9	3	0.73	0.03081
+GO:0099514	synaptic vesicle cytoskeletal transport	9	3	0.73	0.03081
+GO:0099517	synaptic vesicle transport along microtu...	9	3	0.73	0.03081
+GO:0140367	antibacterial innate immune response	9	3	0.73	0.03081
+GO:1903861	positive regulation of dendrite extensio...	9	3	0.73	0.03081
+GO:2000167	regulation of planar cell polarity pathw...	9	3	0.73	0.03081
+GO:2000192	negative regulation of fatty acid transp...	9	3	0.73	0.03081
+GO:0006044	N-acetylglucosamine metabolic process	30	6	2.43	0.03087
+GO:0001525	angiogenesis	344	38	27.89	0.03149
+GO:0031016	pancreas development	55	9	4.46	0.0316
+GO:1902074	response to salt	219	26	17.75	0.03174
+GO:0021543	pallium development	110	15	8.92	0.03193
+GO:0055074	calcium ion homeostasis	209	25	16.94	0.03206
+GO:0061326	renal tubule development	82	12	6.65	0.03213
+GO:0006874	intracellular calcium ion homeostasis	199	24	16.13	0.03233
+GO:0099565	chemical synaptic transmission, postsyna...	73	11	5.92	0.03245
+GO:0002683	negative regulation of immune system pro...	240	28	19.46	0.03245
+GO:0061448	connective tissue development	159	20	12.89	0.03259
+GO:1901615	organic hydroxy compound metabolic proce...	377	41	30.56	0.03275
+GO:0071495	cellular response to endogenous stimulus	862	85	69.88	0.03278
+GO:0051259	protein complex oligomerization	230	27	18.65	0.03291
+GO:0048565	digestive tract development	101	14	8.19	0.03307
+GO:0051716	cellular response to stimulus	4155	365	336.86	0.03345
+GO:0060632	regulation of microtubule-based movement	47	8	3.81	0.03366
+GO:1990266	neutrophil migration	47	8	3.81	0.03366
+GO:0007616	long-term memory	23	5	1.86	0.03418
+GO:0048243	norepinephrine secretion	23	5	1.86	0.03418
+GO:0048489	synaptic vesicle transport	23	5	1.86	0.03418
+GO:1905953	negative regulation of lipid localizatio...	23	5	1.86	0.03418
+GO:0022603	regulation of anatomical structure morph...	530	55	42.97	0.03423
+GO:0072073	kidney epithelium development	111	15	9	0.03427
+GO:0070482	response to oxygen levels	180	22	14.59	0.03446
+GO:0009306	protein secretion	231	27	18.73	0.0345
+GO:0035592	establishment of protein localization to...	231	27	18.73	0.0345
+GO:0006906	vesicle fusion	83	12	6.73	0.0349
+GO:0002920	regulation of humoral immune response	56	9	4.54	0.03504
+GO:0097306	cellular response to alcohol	56	9	4.54	0.03504
+GO:0003213	cardiac right atrium morphogenesis	4	2	0.32	0.03528
+GO:0009137	purine nucleoside diphosphate catabolic ...	4	2	0.32	0.03528
+GO:0009181	purine ribonucleoside diphosphate catabo...	4	2	0.32	0.03528
+GO:0017085	response to insecticide	4	2	0.32	0.03528
+GO:0019376	galactolipid catabolic process	4	2	0.32	0.03528
+GO:0021648	vestibulocochlear nerve morphogenesis	4	2	0.32	0.03528
+GO:0031943	regulation of glucocorticoid metabolic p...	4	2	0.32	0.03528
+GO:0031946	regulation of glucocorticoid biosyntheti...	4	2	0.32	0.03528
+GO:0032347	regulation of aldosterone biosynthetic p...	4	2	0.32	0.03528
+GO:0032353	negative regulation of hormone biosynthe...	4	2	0.32	0.03528
+GO:0035873	lactate transmembrane transport	4	2	0.32	0.03528
+GO:0036100	leukotriene catabolic process	4	2	0.32	0.03528
+GO:0046325	negative regulation of glucose import	4	2	0.32	0.03528
+GO:0060684	epithelial-mesenchymal cell signaling	4	2	0.32	0.03528
+GO:0061017	hepatoblast differentiation	4	2	0.32	0.03528
+GO:0071389	cellular response to mineralocorticoid s...	4	2	0.32	0.03528
+GO:0090032	negative regulation of steroid hormone b...	4	2	0.32	0.03528
+GO:0099180	zinc ion import into synaptic vesicle	4	2	0.32	0.03528
+GO:1901523	icosanoid catabolic process	4	2	0.32	0.03528
+GO:1902407	assembly of actomyosin apparatus involve...	4	2	0.32	0.03528
+GO:1903475	mitotic actomyosin contractile ring asse...	4	2	0.32	0.03528
+GO:1903895	negative regulation of IRE1-mediated unf...	4	2	0.32	0.03528
+GO:1904045	cellular response to aldosterone	4	2	0.32	0.03528
+GO:1990443	peptidyl-threonine autophosphorylation	4	2	0.32	0.03528
+GO:2000064	regulation of cortisol biosynthetic proc...	4	2	0.32	0.03528
+GO:0007631	feeding behavior	65	10	5.27	0.03554
+GO:0048871	multicellular organismal-level homeostas...	390	42	31.62	0.03556
+GO:0001973	G protein-coupled adenosine receptor sig...	16	4	1.3	0.03557
+GO:0007619	courtship behavior	16	4	1.3	0.03557
+GO:0009415	response to water	16	4	1.3	0.03557
+GO:0021602	cranial nerve morphogenesis	16	4	1.3	0.03557
+GO:0030970	retrograde protein transport, ER to cyto...	16	4	1.3	0.03557
+GO:0034391	regulation of smooth muscle cell apoptot...	16	4	1.3	0.03557
+GO:0035115	embryonic forelimb morphogenesis	16	4	1.3	0.03557
+GO:0035588	G protein-coupled purinergic receptor si...	16	4	1.3	0.03557
+GO:0048499	synaptic vesicle membrane organization	16	4	1.3	0.03557
+GO:0060788	ectodermal placode formation	16	4	1.3	0.03557
+GO:0061036	positive regulation of cartilage develop...	16	4	1.3	0.03557
+GO:1903513	endoplasmic reticulum to cytosol transpo...	16	4	1.3	0.03557
+GO:0071715	icosanoid transport	102	14	8.27	0.03559
+GO:0015697	quaternary ammonium group transport	31	6	2.51	0.03574
+GO:0042755	eating behavior	31	6	2.51	0.03574
+GO:0097479	synaptic vesicle localization	31	6	2.51	0.03574
+GO:1903350	response to dopamine	31	6	2.51	0.03574
+GO:0006672	ceramide metabolic process	93	13	7.54	0.0368
+GO:0032309	icosanoid secretion	93	13	7.54	0.0368
+GO:0002682	regulation of immune system process	710	71	57.56	0.03714
+GO:0048732	gland development	243	28	19.7	0.03723
+GO:0007601	visual perception	122	16	9.89	0.03754
+GO:1903825	organic acid transmembrane transport	103	14	8.35	0.03824
+GO:1905039	carboxylic acid transmembrane transport	103	14	8.35	0.03824
+GO:0003333	amino acid transmembrane transport	75	11	6.08	0.0386
+GO:0007416	synapse assembly	162	20	13.13	0.03863
+GO:0048518	positive regulation of biological proces...	3244	288	263	0.03884
+GO:0033559	unsaturated fatty acid metabolic process	66	10	5.35	0.03897
+GO:0010647	positive regulation of cell communicatio...	960	93	77.83	0.03903
+GO:0048514	blood vessel morphogenesis	382	41	30.97	0.0392
+GO:0055123	digestive system development	113	15	9.16	0.0393
+GO:0006829	zinc ion transport	24	5	1.95	0.04039
+GO:0032527	protein exit from endoplasmic reticulum	24	5	1.95	0.04039
+GO:0051939	gamma-aminobutyric acid import	24	5	1.95	0.04039
+GO:0061005	cell differentiation involved in kidney ...	24	5	1.95	0.04039
+GO:0071577	zinc ion transmembrane transport	24	5	1.95	0.04039
+GO:0071692	protein localization to extracellular re...	245	28	19.86	0.0407
+GO:0030324	lung development	104	14	8.43	0.04103
+GO:1903034	regulation of response to wounding	104	14	8.43	0.04103
+GO:0016486	peptide hormone processing	32	6	2.59	0.04108
+GO:0030593	neutrophil chemotaxis	32	6	2.59	0.04108
+GO:0003310	pancreatic A cell differentiation	10	3	0.81	0.04141
+GO:0009134	nucleoside diphosphate catabolic process	10	3	0.81	0.04141
+GO:0014016	neuroblast differentiation	10	3	0.81	0.04141
+GO:0031630	regulation of synaptic vesicle fusion to...	10	3	0.81	0.04141
+GO:0042386	hemocyte differentiation	10	3	0.81	0.04141
+GO:0042451	purine nucleoside biosynthetic process	10	3	0.81	0.04141
+GO:0045610	regulation of hemocyte differentiation	10	3	0.81	0.04141
+GO:0046058	cAMP metabolic process	10	3	0.81	0.04141
+GO:0072488	ammonium transmembrane transport	10	3	0.81	0.04141
+GO:1901632	regulation of synaptic vesicle membrane ...	10	3	0.81	0.04141
+GO:1902455	negative regulation of stem cell populat...	10	3	0.81	0.04141
+GO:2000178	negative regulation of neural precursor ...	10	3	0.81	0.04141
+GO:2001013	epithelial cell proliferation involved i...	10	3	0.81	0.04141
+GO:0048663	neuron fate commitment	49	8	3.97	0.04191
+GO:0097530	granulocyte migration	49	8	3.97	0.04191
+GO:0001823	mesonephros development	67	10	5.43	0.04261
+GO:0006487	protein N-linked glycosylation	67	10	5.43	0.04261
+GO:0072163	mesonephric epithelium development	67	10	5.43	0.04261
+GO:0072164	mesonephric tubule development	67	10	5.43	0.04261
+GO:0043393	regulation of protein binding	58	9	4.7	0.04269
+GO:0009914	hormone transport	174	21	14.11	0.04283
+GO:0009416	response to light stimulus	236	27	19.13	0.04335
+GO:0040008	regulation of growth	342	37	27.73	0.04362
+GO:0003353	positive regulation of cilium movement	17	4	1.38	0.04362
+GO:0010996	response to auditory stimulus	17	4	1.38	0.04362
+GO:0016266	O-glycan processing	17	4	1.38	0.04362
+GO:0019370	leukotriene biosynthetic process	17	4	1.38	0.04362
+GO:0019377	glycolipid catabolic process	17	4	1.38	0.04362
+GO:0032094	response to food	17	4	1.38	0.04362
+GO:0032885	regulation of polysaccharide biosyntheti...	17	4	1.38	0.04362
+GO:0034390	smooth muscle cell apoptotic process	17	4	1.38	0.04362
+GO:0035136	forelimb morphogenesis	17	4	1.38	0.04362
+GO:0098703	calcium ion import across plasma membran...	17	4	1.38	0.04362
+GO:1902093	positive regulation of flagellated sperm...	17	4	1.38	0.04362
+GO:1990573	potassium ion import across plasma membr...	17	4	1.38	0.04362
+GO:2000155	positive regulation of cilium-dependent ...	17	4	1.38	0.04362
+GO:0090174	organelle membrane fusion	86	12	6.97	0.04422
+GO:0051899	membrane depolarization	68	10	5.51	0.04648
+GO:0021536	diencephalon development	50	8	4.05	0.04649
+GO:0071230	cellular response to amino acid stimulus	50	8	4.05	0.04649
+GO:1900271	regulation of long-term synaptic potenti...	50	8	4.05	0.04649
+GO:0051647	nucleus localization	25	5	2.03	0.04724
+GO:0120254	olefinic compound metabolic process	116	15	9.4	0.04781
+GO:0050954	sensory perception of mechanical stimulu...	136	17	11.03	0.04846
+GO:0009987	cellular process	11137	928	902.9	0.04938
+GO:0042330	taxis	177	21	14.35	0.04994
