@@ -67,7 +67,7 @@ tags.de.DMSO.ICRT <- read.table(file = "tags.de.DMSO.ICRT.Apoc2.1.txt", header=T
 annot<- read.table(file = "genomes/apoc2.1/apoculata_proteins_v2.1.renamed.new.totally_annotated.txt", sep='\t', quote="", header=T)
 annot<- annot[c(1,9)]
 
-skel_GOs <- "GO:0030198;|GO:0043062;|GO:0071711;|GO:0030199;|GO:0061448;|GO:0006029;|GO:0030166;|GO:0030203;|GO:0006024;|GO:0030204;|GO:0030206;|GO:0050654;|GO:0050651;|GO:0015015;|GO:0018146;|GO:0006816;|GO:0006811;|GO:0006812;|GO:0030001;|GO:0098660;|GO:0006874;|GO:0051480;|GO:0060429;|GO:0010631;|GO:0034109;|GO:0022407;|GO:0007155;|GO:0098609;|GO:0046903;|GO:1903530;|GO:0045055;|GO:1903530;"
+skel_GOs <- "GO:0030198;|GO:0043062;|GO:0071711;|GO:0030199;|GO:0061448;|GO:0006029;|GO:0030166;|GO:0030203;|GO:0006024;|GO:0030204;|GO:0030206;|GO:0050654;|GO:0015015;|GO:0018146;|GO:0006816;|GO:0006811;|GO:0006812;|GO:0030001;|GO:0098660;|GO:0006874;|GO:0060429;|GO:0010631;|GO:0034109;|GO:0022407;|GO:0007155;|GO:0098609;|GO:0046903;|GO:1903530;|GO:0045055;|GO:0042339;"
 
 annot$skel <- ifelse(
   apply(annot, 1, function(row) any(grepl(skel_GOs, row))),
@@ -140,7 +140,7 @@ geneNames <- names(geneID2GO)
 head(geneNames)
 
 
-myInterestingGenes <- meta[c(which(meta$logFC <= 1.5 & meta$FDR < 0.05)),]
+myInterestingGenes <- meta[c(which(meta$logFC <= -1.5 & meta$FDR < 0.05)),]
 myInterestingGenes <- row.names(myInterestingGenes)
 
 #this creates a string with 0 to 1 for match to black
@@ -172,10 +172,26 @@ selected <- read.table(file="selected_skel_new_GO.txt", sep = '\t', header=T, qu
 selected$Pvalue <- -log(selected$classicFisher)
 selected$Term <- factor(selected$Term, levels = selected$Term[order(selected$Pvalue)])
 
-# Barplot
+  #lollipop plot
 ggplot(selected, aes(x=Term, y=Significant, fill=Pvalue)) + 
   geom_bar(stat = "identity") +
   coord_flip() + 
   scale_fill_gradient(low = "blue", high = "#d73027", 
+                      #limits = c( -4, 0),
+                      #oob=squish, 
                       name="-Log10 p value" ) +
   theme_bw();
+ggplot(selected, aes(x = reorder(Term, Significant), y = Significant)) +
+  geom_segment(aes(xend = Term, y = 0, yend = Significant), 
+               color = "grey50") +
+  geom_point(aes(fill = Pvalue), 
+             size = 4, 
+             shape = 21, 
+             color = "black", 
+             stroke = 0.6) +
+  coord_flip() +
+  scale_fill_gradient(low = "blue", high = "#d73027",
+                      name = "-Log10 p value") +
+  labs(x = "GO Term", y = "Significant") +
+  theme_bw()
+
