@@ -1,17 +1,15 @@
 GO.ID	Term	Annotated	Significant	Expected	classicFisher
-GO:0007267	cell-cell signaling	1079	136	75.6	5.50E-12
-GO:0050654	chondroitin sulfate proteoglycan metabol...	78	25	5.46	4.90E-11
-GO:0006029	proteoglycan metabolic process	130	32	9.11	2.40E-10
-GO:1903510	mucopolysaccharide metabolic process	117	30	8.2	3.00E-10
-GO:0030204	chondroitin sulfate metabolic process	73	23	5.11	4.30E-10
-GO:0030206	chondroitin sulfate biosynthetic process	53	17	3.71	6.00E-08
-GO:0007155	cell adhesion	960	109	67.26	2.60E-07
-GO:0043062	extracellular structure organization	276	38	19.34	4.80E-05
-GO:0010631	epithelial cell migration	210	29	14.71	0.00034
-GO:0098660	inorganic ion transmembrane transport	467	51	32.72	0.00104
-GO:0046903	secretion	586	61	41.06	0.00118
-GO:0001501	skeletal system development	338	35	23.68	0.01309
-GO:0030199	collagen fibril organization	69	10	4.83	0.02134
-GO:0006816	calcium ion transport	245	25	17.17	0.03743
-GO:0007588	excretion	19	4	1.33	0.03986
-GO:0018146	keratan sulfate biosynthetic process	5	2	0.35	0.04254
+GO:0016477	cell migration	766	91	62.1	0.00013
+GO:0006887	exocytosis	207	25	16.78	0.02896
+GO:1903825	organic acid transmembrane transport	103	14	8.35	0.03824
+GO:0098609	cell-cell adhesion	521	58	42.24	0.00825
+GO:0006816	calcium ion transport	245	30	19.86	0.01516
+GO:0098771	inorganic ion homeostasis	316	39	25.62	0.00551
+GO:0046903	secretion	586	68	47.51	0.00163
+GO:0042339	keratan sulfate metabolic process	12	4	0.97	0.01254
+GO:0071468	cellular response to acidic pH	10	4	0.81	0.00607
+GO:0071711	basement membrane organization	77	13	6.24	0.00856
+GO:0006874	intracellular calcium ion homeostasis	199	24	16.13	0.03233
+GO:0034109	homotypic cell-cell adhesion	40	8	3.24	0.01356
+GO:0017157	regulation of exocytosis	102	17	8.27	0.00331
+GO:1903530	regulation of secretion by cell	327	41	26.51	0.00341
