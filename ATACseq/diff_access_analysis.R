@@ -217,5 +217,69 @@ q <- ggplot(to_plot,
 q
 ggsave(q, filename = "Apoc_timeseries_diff_access.svg", height=5, width=6)
 
+##
+## Conservation of ATAC peaks
+##        
+               
+library(ggplot2)
+library(webr)
+library(dplyr)
+
+peak_annotations <- read.table(file="peak_annotations_tidy_coral_synteny.txt", sep='\t', quote="",header=T, row.names = NULL)
+#subset
+peak_all <- peak_annotations[which(peak_annotations$condition=="all_peaks"),]
+peak_all <- peak_all[c(which(peak_all$location=="All")),]
+
+PD = peak_all %>% group_by(conservation) %>% summarise(n = sum(count))
+print(PD)
+PieDonut(PD, aes(conservation, count=n), title = "Conservation of all peaks", color="black") +
+  scale_fill_manual(values = c(
+    "conserved"     = "#6A51A3",
+    "not_conserved" = "#DADAEB")) +
+  labs(
+    title = "Conservation of all peaks",
+  )
 
 
+
+to_plot<- peak_annotations[which(peak_annotations$condition=="all_peaks"),]
+to_plot<- to_plot[-c(which(peak_annotations$location=="All")),]
+
+# Stacked bar plot of annotations
+ggplot(to_plot, aes(fill=conservation, y=count, x=location)) + 
+  geom_bar(position="stack", stat="identity") +
+  #scale_fill_brewer(palette = "RdBu") +
+  scale_fill_manual(values = c(
+    "conserved" = "#6A51A3" ,
+    "not_conserved" = "#DADAEB"
+  )) +
+  geom_col(color = "black") +
+  cowplot::theme_minimal_hgrid()
+
+peak_grn <- peak_annotations[which(peak_annotations$condition=="network"),]
+peak_grn <- peak_grn[c(which(peak_grn$location=="All")),]
+
+PD = peak_grn %>% group_by(conservation) %>% summarise(n = sum(count))
+print(PD)
+PieDonut(PD, aes(conservation, count=n), title = "Conservation of network peaks", color="black") +
+  scale_fill_manual(values = c(
+    "conserved"     = "#238B45",
+    "not_conserved" = "#C7E9C0")) +
+  labs(
+    title = "Conservation of network peaks",
+  )
+
+# Stacked
+
+to_plot<- peak_annotations[which(peak_annotations$condition=="network"),]
+to_plot<- to_plot[-c(which(peak_annotations$location=="All")),]
+
+ggplot(to_plot, aes(fill=conservation, y=count, x=location)) + 
+  geom_bar(position="stack", stat="identity") +
+  #scale_fill_brewer(palette = "RdBu") +
+  scale_fill_manual(values = c(
+    "conserved"     = "#238B45",
+    "not_conserved" = "#C7E9C0")) +
+  geom_col(color = "black") +
+  cowplot::theme_minimal_hgrid()
+               
