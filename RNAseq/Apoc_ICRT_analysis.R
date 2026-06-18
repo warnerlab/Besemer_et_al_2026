@@ -57,54 +57,6 @@ threshold_FDR = 0.05
 top.tags.de.DMSO.ICRT <- tags.de.DMSO.ICRT[which(abs(tags.de.DMSO.ICRT$logFC)>= threshold_FC & tags.de.DMSO.ICRT$FDR<=threshold_FDR),]
 write.table(top.tags.de.DMSO.ICRT, file="top.tags.de.DMSO.ICRT", sep="\t", quote=F)
 
-##
-## Volcano plot
-##
-
-tags.de.DMSO.ICRT <- read.table(file = "tags.de.DMSO.ICRT.Apoc2.1.txt", header=T, quote="", sep='\t')
-
-
-annot<- read.table(file = "genomes/apoc2.1/apoculata_proteins_v2.1.renamed.new.totally_annotated.txt", sep='\t', quote="", header=T)
-annot<- annot[c(1,9)]
-
-skel_GOs <- "GO:0030198;|GO:0043062;|GO:0071711;|GO:0030199;|GO:0061448;|GO:0006029;|GO:0030166;|GO:0030203;|GO:0006024;|GO:0030204;|GO:0030206;|GO:0050654;|GO:0015015;|GO:0018146;|GO:0006816;|GO:0006811;|GO:0006812;|GO:0030001;|GO:0098660;|GO:0006874;|GO:0060429;|GO:0010631;|GO:0034109;|GO:0022407;|GO:0007155;|GO:0098609;|GO:0046903;|GO:1903530;|GO:0045055;|GO:0042339;"
-
-annot$skel <- ifelse(
-  apply(annot, 1, function(row) any(grepl(skel_GOs, row))),
-  "yes",
-  NA
-)
-
-threshold_FC = 1.5
-threshold_FDR = 0.05
-
-tags.de.DMSO.ICRT$diffexpressed <- "NO"
-tags.de.DMSO.ICRT$diffexpressed[tags.de.DMSO.ICRT$logFC >= threshold_FC & tags.de.DMSO.ICRT$FDR<=threshold_FDR] <- "UP"
-tags.de.DMSO.ICRT$diffexpressed[tags.de.DMSO.ICRT$logFC <= -(threshold_FC) & tags.de.DMSO.ICRT$FDR<=threshold_FDR] <- "DOWN"
-
-tags.de.DMSO.ICRT.annotated <- merge(tags.de.DMSO.ICRT,annot, by.x='row.names', by.y='gene_ID', all.x=T)
-
-#small<- tags.de.DMSO.ICRT.annotated[which(grepl("GO:0031214", tags.de.DMSO.ICRT.annotated$GO)),]
-
-tags.de.DMSO.ICRT.annotated <- tags.de.DMSO.ICRT.annotated[rev(order(tags.de.DMSO.ICRT.annotated$skel)), ]
-tags.de.DMSO.ICRT.annotated$skel <- factor(tags.de.DMSO.ICRT.annotated$skel, levels = c("yes"))
-
-tags.de.DMSO.ICRT.annotated$label <- ifelse(tags.de.DMSO.ICRT.annotated$diffexpressed == "NO","not_significant", NA)
-tags.de.DMSO.ICRT.annotated$label <- ifelse(tags.de.DMSO.ICRT.annotated$diffexpressed != "NO", "sig",tags.de.DMSO.ICRT.annotated$label)
-tags.de.DMSO.ICRT.annotated$label <- ifelse((!is.na(tags.de.DMSO.ICRT.annotated$skel)) & tags.de.DMSO.ICRT.annotated$skel == "yes", "skel",tags.de.DMSO.ICRT.annotated$label)
-tags.de.DMSO.ICRT.annotated$label <- ifelse(tags.de.DMSO.ICRT.annotated$diffexpressed == "NO","not_significant", tags.de.DMSO.ICRT.annotated$label)
-
-tags.de.DMSO.ICRT.annotated$alpha <- ifelse(tags.de.DMSO.ICRT.annotated$label == "not_significant",0.5, NA)
-tags.de.DMSO.ICRT.annotated$alpha <- ifelse(tags.de.DMSO.ICRT.annotated$label == "sig",1, tags.de.DMSO.ICRT.annotated$alpha)
-tags.de.DMSO.ICRT.annotated$alpha <- ifelse(tags.de.DMSO.ICRT.annotated$label == "skel",1, tags.de.DMSO.ICRT.annotated$alpha)
-
-
-p <- ggplot(data=tags.de.DMSO.ICRT.annotated, aes(x=logFC, y=-log10(FDR), col=label, alpha=alpha)) +
-  geom_point() +
-  theme_minimal() +
-  scale_color_manual(values=c("grey80","grey50","purple"))
-p
-
 
 ##
 ## TopGO
@@ -168,7 +120,7 @@ write.table(allRes, file = file, sep='\t', quote=F, row.names = F)
 
 library(forcats)
 library(ggplot2)  
-selected <- read.table(file="selected_skel_new_GO.txt", sep = '\t', header=T, quote = "")
+selected <- read.table(file="selected_secretory_new_GO.txt", sep = '\t', header=T, quote = "")
 selected$Pvalue <- -log(selected$classicFisher)
 selected$Term <- factor(selected$Term, levels = selected$Term[order(selected$Pvalue)])
 
